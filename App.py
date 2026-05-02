@@ -9,7 +9,7 @@ st.set_page_config(
     page_icon="🎙️",
     layout="wide"
 )
-
+<meta name="google-site-verification" content="XMevMtwIoHVhCraYTMo_1miegWUMRu_ISGQGoT6qQKQ" />
 # --- 2. Professional Dark Theme Styling ---
 st.markdown("""
     <style>
