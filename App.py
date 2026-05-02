@@ -8,8 +8,8 @@ st.set_page_config(
     page_title="Khak AI Voice Studio",
     page_icon="🎙️",
     layout="wide"
-) 
- st.markdown('<meta name="google-site-verification" content="XMevMtwIoHVhCraYTMo_1miegWUMRu_ISGQGoT6qQKQ" />', unsafe_allow_html=True)
+)
+st.markdown('<meta name="google-site-verification" content="XMevMtwIoHVhCraYTMo_1miegWUMRu_ISGQGoT6qQKQ" />', unsafe_allow_html=True)
 # --- 2. Professional Dark Theme Styling ---
 st.markdown("""
     <style>
