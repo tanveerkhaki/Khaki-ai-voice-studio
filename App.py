@@ -9,7 +9,16 @@ st.set_page_config(
     page_icon="🎙️",
     layout="wide"
 )
-st.markdown('<meta name="google-site-verification" content="XMevMtwIoHVhCraYTMo_1miegWUMRu_ISGQGoT6qQKQ" />', unsafe_allow_html=True)
+# Google Analytics & Search Console Verification
+st.markdown("""
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-70W915547Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-70W915547Q');
+    </script>
+""", unsafe_allow_html=True)
 # --- 2. Professional Dark Theme Styling ---
 st.markdown("""
     <style>
