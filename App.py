@@ -1,7 +1,11 @@
 import streamlit as st
-import asyncio
-import edge_tts
-import io
+
+# --- Google Verification Feature ---
+# Ye hissa Google bot ko file dikhane ke liye hai
+query_params = st.query_params
+if "verify" in query_params:
+    st.write("google-site-verification: googlea13e54d3f2b18e6e.html")
+    st.stop()
 
 # --- 1. Page Configuration ---
 st.set_page_config(
@@ -10,11 +14,6 @@ st.set_page_config(
     layout="wide"
 )
 
-st.markdown("""
-    <head>
-        <meta name="google-site-verification" content="XMevMtwIoHVhCraYTMo_1miegWUMRu_ISGQGoT6qQKQ" />
-    </head>
-""", unsafe_allow_html=True)
 # --- 2. Professional Dark Theme Styling ---
 st.markdown("""
     <style>
