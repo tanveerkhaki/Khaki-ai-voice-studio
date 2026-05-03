@@ -1,4 +1,5 @@
 import streamlit as st
+import asyncio
 
 # --- Google Verification Feature ---
 # Ye hissa Google bot ko file dikhane ke liye hai
