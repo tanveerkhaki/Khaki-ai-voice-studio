@@ -1,4 +1,14 @@
 import streamlit as st
+
+# Google Verification Meta Tag
+st.set_page_config(page_title="Khak AI Voice Studio", layout="wide")
+
+# Ye line Google bot ko aapki ownership dikhaye gi
+st.markdown('<meta name="google-site-verification" content="XMevMtwIoHVhCraYTMo_1miegWUMRu_ISGQGoT6qQKQ" />', unsafe_allow_html=True)
+
+# Baaki code is ke neeche...
+
+import streamlit as st
 import asyncio
 import edge_tts
 
