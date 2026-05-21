@@ -77,7 +77,7 @@ with st.sidebar:
         "it-IT": "Italian 🇮🇹", "tr-TR": "Turkish 🇹🇷", "vi-VN": "Vietnamese 🇻🇳",
         "ko-KR": "Korean 🇰🇷", "pl-PL": "Polish 🇵🇱", "uk-UA": "Ukrainian 🇺🇦",
         "ms-MY": "Malay 🇲🇾", "th-TH": "Thai 🇹🇭", "kn-IN": "Kannada 🇮🇳",
-        "fa-IR": "Persian (Farsi) 🇮🇷", "nl-NL": "Dutch 🇳🇱"
+        "fa-IR": "Persian (Farsi) 🇮🇷", "nl-NL": "Dutch 🇳🇱", "es-MX": "Spanish (Latin America) 🇲🇽"
     }
     
     available_locales = {lang_map.get(v['Locale'], v['Locale']): v['Locale'] for v in st.session_state.voices if v['Locale'] in lang_map}
